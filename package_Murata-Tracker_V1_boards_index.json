@@ -5,8 +5,7 @@
       "maintainer": "LcmVeloci",
       "websiteURL": "https://github.com",
       "email": "ingen@mail.com",
-      "platforms":
-      [
+      "platforms": [
         {
           "name": "Murata-Tracker_V1",
           "architecture": "stm32l0",
