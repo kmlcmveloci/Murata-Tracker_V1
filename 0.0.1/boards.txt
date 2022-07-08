@@ -1,0 +1,57 @@
+menu.usb=USB Type
+menu.dosfs=DOSFS
+menu.speed=CPU Speed
+menu.opt=Optimize
+
+##############################################################
+# ST Murata-Tracker_V1
+# ---------------------------------------
+Murata-Tracker_V1.name=Murata-Tracker_V1
+Murata-Tracker_V1.vid.0=0x0483
+Murata-Tracker_V1.pid.0=0x374b
+
+Murata-Tracker_V1.upload.tool=stm32l0_openocd
+Murata-Tracker_V1.upload.protocol=stlink
+Murata-Tracker_V1.upload.maximum_size=196608
+Murata-Tracker_V1.upload.maximum_data_size=20480
+Murata-Tracker_V1.upload.use_1200bps_touch=true
+Murata-Tracker_V1.upload.wait_for_upload_port=false
+Murata-Tracker_V1.upload.native_usb=false
+
+Murata-Tracker_V1.build.mcu=cortex-m0plus
+Murata-Tracker_V1.build.f_cpu=32000000L
+Murata-Tracker_V1.build.board=Murata-Tracker_V1
+Murata-Tracker_V1.build.arch=stm32l0
+Murata-Tracker_V1.build.core=arduino
+Murata-Tracker_V1.build.vid=0x0483
+Murata-Tracker_V1.build.pid=0x374b
+Murata-Tracker_V1.build.did=0xffff
+Murata-Tracker_V1.build.extra_flags=-DSTM32L072xx -march=armv6-m -mthumb -mabi=aapcs -mfloat-abi=soft -fsingle-precision-constant
+Murata-Tracker_V1.build.ldscript=linker_scripts/STM32L072CZ_FLASH.ld
+Murata-Tracker_V1.build.openocdscript=openocd_scripts/Murata-Tracker_V1.cfg
+Murata-Tracker_V1.build.variant=Murata-Tracker_V1
+Murata-Tracker_V1.build.variant_system_libs="-L{runtime.platform.path}/system/STM32L0xx/Lib" "-L{runtime.platform.path}/system/CMSIS/Lib" -lstm32l072xx -larm_cortexM0l_math
+Murata-Tracker_V1.build.variant_system_include="-I{runtime.platform.path}/system/CMSIS/Include" "-I{runtime.platform.path}/system/CMSIS/Device/ST/STM32L0xx/Include" "-I{runtime.platform.path}/system/STM32L0xx/Include" 
+
+Murata-Tracker_V1.menu.speed.32=32 MHz
+Murata-Tracker_V1.menu.speed.32.build.f_cpu=32000000L
+Murata-Tracker_V1.menu.speed.16=16 MHz (No USB)
+Murata-Tracker_V1.menu.speed.16.build.f_cpu=16000000L
+Murata-Tracker_V1.menu.speed.4=4.2 MHz (No USB)
+Murata-Tracker_V1.menu.speed.4.build.f_cpu=4200000L
+
+Murata-Tracker_V1.menu.opt.os=Smallest Code
+Murata-Tracker_V1.menu.opt.os.build.flags.optimize=-Os
+Murata-Tracker_V1.menu.opt.os.build.flags.ldspecs=--specs=nano.specs
+Murata-Tracker_V1.menu.opt.o1=Fast
+Murata-Tracker_V1.menu.opt.o1.build.flags.optimize=-O1
+Murata-Tracker_V1.menu.opt.o1.build.flags.ldspecs=
+Murata-Tracker_V1.menu.opt.o2=Faster
+Murata-Tracker_V1.menu.opt.o2.build.flags.optimize=-O2
+Murata-Tracker_V1.menu.opt.o2.build.flags.ldspecs=
+Murata-Tracker_V1.menu.opt.o3=Fastest
+Murata-Tracker_V1.menu.opt.o3.build.flags.optimize=-O3
+Murata-Tracker_V1.menu.opt.o3.build.flags.ldspecs=
+
+
+
