@@ -13,7 +13,7 @@
           "category": "Contributed",
           "url": "https://github.com/kmlcmveloci/Murata-Tracker_V1/raw/master/Murata-Tracker_V1-0.0.1.zip",
           "archiveFileName": "Murata-Tracker_V1-0.0.1.zip",
-          "checksum": "SHA-256:15e857e95818d302272ff63c0fae16c7d955f0c14446582e535e2af1ac7599a3",
+          "checksum": "MD5:20a13598585bb33b60d2f36f1255e875",
           "size": "10240228",
           "boards": [
             {"name": "Murata-Tracker_V1"}
