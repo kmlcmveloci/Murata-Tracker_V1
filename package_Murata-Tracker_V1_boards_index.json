@@ -5,13 +5,13 @@
       "maintainer": "LcmVeloci",
       "websiteURL": "https://github.com",
       "email": "ingen@mail.com",
-      "platforms": [
+      "platforms":
         {
           "name": "Murata-Tracker_V1",
           "architecture": "stm32l0",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "https://github.com/kmlcmveloci/Murata-Tracker_V1/blob/50f7cea09608804607787f315e8b040afdaca356/Murata-Tracker_V1-0.0.1.zip",
+          "url": "https://github.com/kmlcmveloci/Murata-Tracker_V1/blob/e73132d20994ab4cfd15c59a14a5a408e416496c/Murata-Tracker_V1-0.0.1.zip",
           "archiveFileName": "Murata-Tracker_V1-0.0.1.zip",
           "checksum": "MD5:20a13598585bb33b60d2f36f1255e875",
           "size": "10240228",
@@ -26,11 +26,6 @@
             }
           ]
         }
-
-
-      ],
-      "tools": [
-      ]
     }
   ]
 }
