@@ -11,10 +11,10 @@
           "architecture": "stm32l0",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "https://github.com/kmlcmveloci/Murata-Tracker_V1/Murata-Tracker_V1-0.0.1.zip",
+          "url": "https://github.com/kmlcmveloci/Murata-Tracker_V1/blob/50f7cea09608804607787f315e8b040afdaca356/Murata-Tracker_V1-0.0.1.zip",
           "archiveFileName": "Murata-Tracker_V1-0.0.1.zip",
-          "checksum": "MD5:a72afbc167c04e4370f84e552ebb1216",
-          "size": "8803939",
+          "checksum": "MD5:20a13598585bb33b60d2f36f1255e875",
+          "size": "10240228",
           "boards": [
             {"name": "Murata-Tracker_V1"}
           ],
