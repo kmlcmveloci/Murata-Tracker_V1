@@ -6,6 +6,7 @@
       "websiteURL": "https://github.com",
       "email": "ingen@mail.com",
       "platforms":
+      [
         {
           "name": "Murata-Tracker_V1",
           "architecture": "stm32l0",
@@ -26,6 +27,7 @@
             }
           ]
         }
+      ]
     }
   ]
 }
