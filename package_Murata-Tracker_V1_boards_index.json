@@ -26,6 +26,28 @@
             }
           ]
         }
+      ] ,
+      "platforms": [
+        {
+          "name": "Murata-Tracker_V1",
+          "architecture": "stm32l0",
+          "version": "0.0.2",
+          "category": "Contributed",
+          "url": "https://github.com/kmlcmveloci/Murata-Tracker_V1/raw/master/Murata-Tracker_V1-0.0.2.zip",
+          "archiveFileName": "Murata-Tracker_V1-0.0.2.zip",
+          "checksum": "SHA-256:BF1339430843914446D832CC7743A6CE1A4DBB62BA716DA4D5009C672472ED61",
+          "size": "10240363",
+          "boards": [
+            {"name": "Murata-Tracker_V1"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        }
       ]
     }
   ]
