@@ -25,9 +25,7 @@
               "version": "4.8.3-2014q1"
             }
           ]
-        }
-      ] ,
-      "platforms": [
+        } ,
         {
           "name": "Murata-Tracker_V1",
           "architecture": "stm32l0",
