@@ -1,5 +1,11 @@
 
-certutil -hashfile Murata-Tracker_V1-0.0.1.zip MD5
 
+
+
+I PowerShell bruges Get-FileHash til af beregns SHA-256
+		"checksum": "SHA-256:15E857E95818D302272FF63C0FAE16C7D955F0C14446582E535E2AF1AC7599A3",
+
+Brug Enegskaber i højreklik
+    "size": "10240228",
 
 
